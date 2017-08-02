@@ -1,0 +1,53 @@
+{
+  "name": "cuapi",
+  "version": "1.0.0",
+  "description": "API for providing data related to CU's",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha -S --ui bdd --require ./tests/spec_helper.js --recursive ./tests --reporter spec",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "CU"
+  ],
+  "author": "arpit",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "latest",
+    "bunyan": "^1.8.10",
+    "dateformat": "^2.0.0",
+    "express": "latest",
+    "express-bunyan-logger": "^1.3.2",
+    "express-partial-response": "^0.3.4",
+    "jsonwebtoken": "latest",
+    "lodash": "latest",
+    "morgan": "latest",
+    "multer": "^1.3.0",
+    "mysql": "latest",
+    "mysql2": "^1.3.5",
+    "parameters-middleware": "^0.1.0",
+    "passport": "latest",
+    "passport-jwt": "latest",
+    "passport-local": "latest",
+    "sequelize": "latest",
+    "socket.io": "latest",
+    "socket.io-client": "latest",
+    "tedious": "^2.0.0",
+    "url-join": "^2.0.2",
+    "uuid": "latest"
+  },
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "latest",
+    "mocha": "latest",
+    "should": "latest",
+    "supertest": "latest",
+    "nodemon": "latest"
+  }
+}
